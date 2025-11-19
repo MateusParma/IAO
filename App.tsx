@@ -6,7 +6,7 @@ import { QuoteResult } from './components/QuoteResult';
 import { LoadingSpinner } from './components/LoadingSpinner';
 import { QuoteHistory } from './components/QuoteHistory';
 import { generateQuote } from './services/geminiService';
-import { LogoIcon, HistoryIcon, PencilIcon, UploadIcon, CogIcon } from './components/icons';
+import { LogoIcon, HistoryIcon, PencilIcon, UploadIcon, CogIcon } from './components/AppIcons';
 
 type Page = 'form' | 'loading' | 'result' | 'history' | 'view' | 'settings';
 
